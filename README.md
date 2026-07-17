@@ -1,2 +1,4 @@
 # High-Precision-Date-Field-Fix
 Arc Pro Toolbox (atbx) containing tool script that automates the high precision date field fix workflow needed to re-enable editor tracking. 
+
+This script automates the process of fixing the high accuracy date field issue that is encountered exporting features from AGOL to a local GDB. Select your local geodatabase containing the layer exported from AGOL, make sure there are no other layers within. Then select a AGOL feature service layer, it does not matter which one since the layer is just used to find the feature service. Enter where you would like the output GDB to be created, as well as the output GDB name. Make sure to adhere to GDB naming standards. The high accuracy date fields being fix are "CreationDate" and "EditDate". If you have differently named date fields, go into Execution and update your feilds.
